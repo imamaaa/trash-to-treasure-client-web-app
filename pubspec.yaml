@@ -1,0 +1,75 @@
+name: cashier_web_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.3.0
+  firebase_storage: ^12.2.0
+  qr_code_scanner: ^1.0.1
+  provider: ^6.1.2
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.2.1
+  email_validator: ^3.0.0
+  url_launcher: ^6.1.10
+  image_picker: ^0.8.7
+  cupertino_icons: ^1.0.8
+  intl: ^0.19.0
+  flutter_web_qrcode_scanner: ^1.1.1
+  overlay_support: ^2.1.0
+  universal_html: ^2.2.4
+  flutter_charts: ^0.5.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/coinshand.svg
+    - assets/images/qrcode.svg
+    - assets/images/neura.svg
+    - assets/images/sortingWaste.svg
+    - assets/images/trashMask.jpg
+    - assets/images/zeroWaste.jpg
+    - assets/images/banner.jpg
+    - assets/images/integration.svg
+    - assets/images/loyalty.svg
+    - assets/images/aiefficiency.svg
+    - assets/images/sprout.svg
+    - assets/images/dashQR.svg
+    - assets/images/Bill.svg
+    - assets/images/DialPad.svg
+    - assets/images/mainPage.svg
+    - assets/images/logout.svg
+    - assets/images/shop.svg
+    - assets/images/usercircle.svg
+    - assets/images/Avatar.svg
+    - assets/images/OTP.svg
+    - assets/images/verified_person.svg
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/static/Montserrat-Regular.ttf
+        - asset: assets/fonts/static/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/static/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/static/Montserrat-Medium.ttf
+          weight: 500
